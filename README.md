@@ -126,7 +126,7 @@ Response Body:
 }
 
 
-2)GET http://localhost:8081/api/products/{prod_id}  fetching with category details
+2)GET http://localhost:8080/api/products/{prod_id}  fetching with category details
 Response:
 {
     "message": "Product found",
@@ -142,7 +142,7 @@ Response:
     }
 }
 
-3) GET http://localhost:8081/api/products?page=0   (Pagination)
+3) GET http://localhost:8080/api/products?page=0   (Pagination)
 Response:
 {
     "message": "Fetched all products",
@@ -182,7 +182,7 @@ Response:
 }
 
 
-4)PUT http://localhost:8081/api/products/{prod_id}
+4)PUT http://localhost:8080/api/products/{prod_id}
 Response:
 {
     "message": "Product updated successfully",
@@ -194,7 +194,7 @@ Response:
     }
 }
 
-5)DEL http://localhost:8081/api/products/{prod_id}
+5)DEL http://localhost:8080/api/products/{prod_id}
 Response
 {
     "message": "Product deleted successfully",
